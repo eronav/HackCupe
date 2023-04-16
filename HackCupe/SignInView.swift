@@ -18,6 +18,8 @@ struct SignInView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding(.bottom, 50)
+                    .padding(.top, 25)
+                
                 
                 TextField("Username", text: $username)
                     .padding()
@@ -34,15 +36,24 @@ struct SignInView: View {
                 Button(action: {
                     // Handle sign-in action here
                 }) {
-                    Text("Sign In")
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(8.0)
+                    NavigationLink(destination: HomePageView().navigationBarBackButtonHidden(true)) {
+                        Text("Sign In")
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8.0)
+                    }
+                
                 }
                 
-                Spacer()
+                Group {
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                }
                 
                 Button(action: {
                     // Navigate to the new account creation screen
@@ -52,6 +63,8 @@ struct SignInView: View {
                             .foregroundColor(Color.blue)
                     }
                 }
+                
+                Spacer()
             }
             .padding(.horizontal, 20)
         }
