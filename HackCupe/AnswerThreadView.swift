@@ -7,19 +7,22 @@
 
 import SwiftUI
 
-struct QandAView: View {
-    @EnvironmentObject var questions: Questions
-    @State var searchText: String = ""
+struct AnswerThreadView: View {
+    var question: Question
+    @EnvironmentObject var answers: Answers
+    
+    var a = Answer()
+
     var body: some View {
         NavigationView {
             VStack {
                 HStack {
-                    Text("Q&A")
+                    Text("Answer Thread")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .padding(.horizontal, 25)
                     Spacer()
-                    NavigationLink(destination: NewQandAView()) {
+                    NavigationLink(destination: NewAnswerView(question: question).navigationBarBackButtonHidden(true)) {
                         Image(systemName:"plus")
                             .padding(.horizontal, 25)
                             
@@ -27,33 +30,44 @@ struct QandAView: View {
                 }
                 List {
                     Section {
-                        ForEach(questions.matches(for: searchText)) { q in
-                            NavigationLink(destination: AnswerThreadView(question: q).navigationBarBackButtonHidden(true)) {
-                                VStack(alignment: .leading, spacing: 10) {
-                                    HStack {
-                                        Text(q.poster)
-                                            .font(.headline)
-                                            .fontWeight(.bold)
-                                        ForEach(0..<min(3, q.tags.count)) { i in
-                                            var t = q.tags[i]
-                                            Text(t.val)
-                                                .padding(.horizontal, 6)
-                                                .padding(.vertical, 4)
-                                                .background(Color("LapizLazuli"))
-                                                .clipShape(Capsule())
-                                                .foregroundColor(.white)
-                                        }
-                                    }
-                                    Text(q.question)
-                                        .font(.body)
-                                        .foregroundColor(Color("RichBlack"))
+                        VStack(alignment: .leading, spacing: 10) {
+                            HStack {
+                                Text(question.poster)
+                                    .font(.headline)
+                                    .fontWeight(.bold)
+                                ForEach(0..<min(3, question.tags.count)) { i in
+                                    var t = question.tags[i]
+                                    Text(t.val)
+                                        .padding(.horizontal, 6)
+                                        .padding(.vertical, 4)
+                                        .background(Color("LapizLazuli"))
+                                        .clipShape(Capsule())
+                                        .foregroundColor(.white)
                                 }
-                                .padding()
-                                .background(Color("LightBlue"))
-                                .cornerRadius(8)
-                                .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 5)
                             }
+                            Text(question.question)
+                                .font(.body)
+                                .foregroundColor(Color("RichBlack"))
                         }
+                        .padding()
+                        .background(Color("LightBlue"))
+                        .cornerRadius(8)
+                        .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 5)
+                    }.listRowBackground(Color("LapizLazuli"))
+                    
+                    Section (header: Text("Answers")) {
+                        VStack(alignment: .leading, spacing: 10) {
+                            Text(a.poster)
+                                .font(.headline)
+                                .fontWeight(.bold)
+                            Text(a.answer)
+                                .font(.body)
+                                .foregroundColor(Color("RichBlack"))
+                        }
+                        .padding()
+                        .background(Color("LightBlue"))
+                        .cornerRadius(8)
+                        .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 5)
                     }.listRowBackground(Color("LapizLazuli"))
                 }
                 .listStyle(InsetGroupedListStyle())
@@ -100,13 +114,12 @@ struct QandAView: View {
                     
                 }
             }
-            .searchable(text: $searchText)
         }
     }
 }
 
-struct QandAView_Previews: PreviewProvider {
-    static var previews: some View {
-        QandAView()
-    }
-}
+//struct AnswerThreadView_Preview: PreviewProvider {
+//    static var previews: some View {
+//        AnswerThreadView()
+//    }
+//}

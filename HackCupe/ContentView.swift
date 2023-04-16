@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    var acc = Accounts2()
+    var feeds = Feeds()
+    var questions = Questions()
+    var answers = Answers()
     var body: some View {
 //        VStack {
 //            Image(systemName: "globe")
@@ -17,6 +21,10 @@ struct ContentView: View {
 //        }
 //        .padding()
         SignInView()
+            .environmentObject(acc)
+            .environmentObject(feeds)
+            .environmentObject(questions)
+            .environmentObject(answers)
     }
 }
 

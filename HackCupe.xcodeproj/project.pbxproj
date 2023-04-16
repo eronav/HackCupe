@@ -11,6 +11,25 @@
 		B5E5A57029EB564F004CCF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E5A56F29EB564F004CCF04 /* ContentView.swift */; };
 		B5E5A57229EB5652004CCF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E5A57129EB5652004CCF04 /* Assets.xcassets */; };
 		B5E5A57529EB5652004CCF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E5A57429EB5652004CCF04 /* Preview Assets.xcassets */; };
+		EBCC2E5129EC23A2002F7488 /* NewQandAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCC2E5029EC23A2002F7488 /* NewQandAView.swift */; };
+		EBCC2E5329EC2E57002F7488 /* AnswerThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCC2E5229EC2E57002F7488 /* AnswerThreadView.swift */; };
+		EBCC2E5529EC2F1B002F7488 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCC2E5429EC2F1B002F7488 /* Answer.swift */; };
+		EBCC2E5729EC3034002F7488 /* NewAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCC2E5629EC3034002F7488 /* NewAnswerView.swift */; };
+		EBCC2E5929EC3716002F7488 /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCC2E5829EC3716002F7488 /* Answers.swift */; };
+		EBD9673029EB94010049CFFE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9672F29EB94010049CFFE /* SignInView.swift */; };
+		EBD9673229EB963E0049CFFE /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9673129EB963E0049CFFE /* CreateAccountView.swift */; };
+		EBD9673429EB9BC20049CFFE /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9673329EB9BC20049CFFE /* HomePageView.swift */; };
+		EBD9673629EBAB920049CFFE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9673529EBAB920049CFFE /* FeedView.swift */; };
+		EBD9673829EBADCD0049CFFE /* QandAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9673729EBADCD0049CFFE /* QandAView.swift */; };
+		EBD9673A29EBB1BF0049CFFE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9673929EBB1BF0049CFFE /* AccountView.swift */; };
+		EBD9674029EBC5F80049CFFE /* Account2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9673F29EBC5F80049CFFE /* Account2.swift */; };
+		EBD9674229EBC6120049CFFE /* Accounts2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9674129EBC6120049CFFE /* Accounts2.swift */; };
+		EBD9674429EBCF480049CFFE /* Feeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9674329EBCF480049CFFE /* Feeds.swift */; };
+		EBD9674629EBCF840049CFFE /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9674529EBCF840049CFFE /* Feed.swift */; };
+		EBD9674829EBDC6C0049CFFE /* NewFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9674729EBDC6C0049CFFE /* NewFeedView.swift */; };
+		EBD9674E29EBE6140049CFFE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9674B29EBE6130049CFFE /* Question.swift */; };
+		EBD9674F29EBE6140049CFFE /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9674C29EBE6140049CFFE /* Questions.swift */; };
+		EBD9675029EBE6140049CFFE /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9674D29EBE6140049CFFE /* Tag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,25 @@
 		B5E5A56F29EB564F004CCF04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5E5A57129EB5652004CCF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E5A57429EB5652004CCF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBCC2E5029EC23A2002F7488 /* NewQandAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQandAView.swift; sourceTree = "<group>"; };
+		EBCC2E5229EC2E57002F7488 /* AnswerThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerThreadView.swift; sourceTree = "<group>"; };
+		EBCC2E5429EC2F1B002F7488 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		EBCC2E5629EC3034002F7488 /* NewAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnswerView.swift; sourceTree = "<group>"; };
+		EBCC2E5829EC3716002F7488 /* Answers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
+		EBD9672F29EB94010049CFFE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		EBD9673129EB963E0049CFFE /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		EBD9673329EB9BC20049CFFE /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		EBD9673529EBAB920049CFFE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		EBD9673729EBADCD0049CFFE /* QandAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QandAView.swift; sourceTree = "<group>"; };
+		EBD9673929EBB1BF0049CFFE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		EBD9673F29EBC5F80049CFFE /* Account2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account2.swift; sourceTree = "<group>"; };
+		EBD9674129EBC6120049CFFE /* Accounts2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts2.swift; sourceTree = "<group>"; };
+		EBD9674329EBCF480049CFFE /* Feeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeds.swift; sourceTree = "<group>"; };
+		EBD9674529EBCF840049CFFE /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		EBD9674729EBDC6C0049CFFE /* NewFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedView.swift; sourceTree = "<group>"; };
+		EBD9674B29EBE6130049CFFE /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		EBD9674C29EBE6140049CFFE /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		EBD9674D29EBE6140049CFFE /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +89,29 @@
 		B5E5A56C29EB564F004CCF04 /* HackCupe */ = {
 			isa = PBXGroup;
 			children = (
+				EBD9674729EBDC6C0049CFFE /* NewFeedView.swift */,
+				EBCC2E5029EC23A2002F7488 /* NewQandAView.swift */,
 				B5E5A56D29EB564F004CCF04 /* HackCupeApp.swift */,
 				B5E5A56F29EB564F004CCF04 /* ContentView.swift */,
+				EBD9672F29EB94010049CFFE /* SignInView.swift */,
+				EBD9673329EB9BC20049CFFE /* HomePageView.swift */,
+				EBD9674B29EBE6130049CFFE /* Question.swift */,
+				EBD9674C29EBE6140049CFFE /* Questions.swift */,
+				EBD9674D29EBE6140049CFFE /* Tag.swift */,
+				EBD9673729EBADCD0049CFFE /* QandAView.swift */,
+				EBD9673929EBB1BF0049CFFE /* AccountView.swift */,
+				EBD9673529EBAB920049CFFE /* FeedView.swift */,
+				EBD9673129EB963E0049CFFE /* CreateAccountView.swift */,
+				EBD9673F29EBC5F80049CFFE /* Account2.swift */,
+				EBD9674129EBC6120049CFFE /* Accounts2.swift */,
 				B5E5A57129EB5652004CCF04 /* Assets.xcassets */,
 				B5E5A57329EB5652004CCF04 /* Preview Content */,
+				EBD9674329EBCF480049CFFE /* Feeds.swift */,
+				EBD9674529EBCF840049CFFE /* Feed.swift */,
+				EBCC2E5229EC2E57002F7488 /* AnswerThreadView.swift */,
+				EBCC2E5429EC2F1B002F7488 /* Answer.swift */,
+				EBCC2E5629EC3034002F7488 /* NewAnswerView.swift */,
+				EBCC2E5829EC3716002F7488 /* Answers.swift */,
 			);
 			path = HackCupe;
 			sourceTree = "<group>";
@@ -137,8 +194,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD9675029EBE6140049CFFE /* Tag.swift in Sources */,
+				EBD9674429EBCF480049CFFE /* Feeds.swift in Sources */,
+				EBD9674629EBCF840049CFFE /* Feed.swift in Sources */,
+				EBD9673029EB94010049CFFE /* SignInView.swift in Sources */,
+				EBD9674F29EBE6140049CFFE /* Questions.swift in Sources */,
+				EBCC2E5129EC23A2002F7488 /* NewQandAView.swift in Sources */,
 				B5E5A57029EB564F004CCF04 /* ContentView.swift in Sources */,
+				EBCC2E5929EC3716002F7488 /* Answers.swift in Sources */,
+				EBD9674029EBC5F80049CFFE /* Account2.swift in Sources */,
+				EBCC2E5329EC2E57002F7488 /* AnswerThreadView.swift in Sources */,
+				EBD9674E29EBE6140049CFFE /* Question.swift in Sources */,
+				EBD9673229EB963E0049CFFE /* CreateAccountView.swift in Sources */,
+				EBD9674229EBC6120049CFFE /* Accounts2.swift in Sources */,
 				B5E5A56E29EB564F004CCF04 /* HackCupeApp.swift in Sources */,
+				EBD9673A29EBB1BF0049CFFE /* AccountView.swift in Sources */,
+				EBCC2E5529EC2F1B002F7488 /* Answer.swift in Sources */,
+				EBCC2E5729EC3034002F7488 /* NewAnswerView.swift in Sources */,
+				EBD9673829EBADCD0049CFFE /* QandAView.swift in Sources */,
+				EBD9674829EBDC6C0049CFFE /* NewFeedView.swift in Sources */,
+				EBD9673629EBAB920049CFFE /* FeedView.swift in Sources */,
+				EBD9673429EB9BC20049CFFE /* HomePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +345,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HackCupe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CommunityNexus;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +374,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HackCupe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CommunityNexus;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
